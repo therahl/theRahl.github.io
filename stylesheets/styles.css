@@ -14921,11 +14921,19 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /* line 123, /home/jay/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/materialize-sass-0.97.0/app/assets/stylesheets/materialize/components/date_picker/_default.time.scss */
   .picker--time .picker__box {
     margin-bottom: 5em; } }
-/* line 28, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 27, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+.table-of-contents a:hover {
+  border-left: 1px solid #FFC107; }
+
+/* line 31, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+.table-of-contents a.active {
+  border-left: 1px solid #FFC107; }
+
+/* line 35, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .divider {
   width: 100%; }
 
-/* line 31, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 38, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .card-image {
   display: block;
   max-width: 230px;
@@ -14935,11 +14943,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin: 0 auto;
   padding: 20px; }
 
-/* line 40, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 47, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .container .row {
   display: flex; }
 
-/* line 44, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 51, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .home-heading {
   background-color: #D7CCC8;
   color: #727272;
@@ -14948,97 +14956,97 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   width: 100%;
   padding-top: 100px; }
 
-/* line 52, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 59, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #contact {
   height: 100vh;
   padding-left: 150px;
   background-image: url("/images/surfers.jpg");
   background-repeat: no-repeat; }
 
-/* line 59, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 66, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .fa {
   font-size: 1.5em;
   padding-right: 10px; }
 
-/* line 63, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 70, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .fa-github {
   color: green; }
 
-/* line 67, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 74, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .fa:hover {
   text-shadow: 5px 5px 5px #ccc; }
 
-/* line 71, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 78, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .side-nav.fixed a {
   color: #FFFFFF; }
 
-/* line 75, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 82, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .side-nav {
   width: 300px;
   background-color: #5D4037; }
-  /* line 78, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  /* line 85, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   .side-nav li {
     padding: 0px;
     border-bottom: 1px solid #D7CCC8;
     opacity: 0; }
 
-/* line 84, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 91, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .side-nav li:hover, li.active {
   background-color: #795548; }
 
-/* line 87, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 94, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .side-nav li a.active {
   background-color: #795548; }
 
-/* line 92, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 99, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #titleTag {
   display: block;
   padding-right: 10px;
   height: 230px;
   padding-top: 50px;
   margin-bottom: 10px; }
-  /* line 100, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  /* line 107, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   #titleTag h4 {
     font-weight: 200; }
-  /* line 103, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  /* line 110, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   #titleTag a {
     color: #FFFFFF; }
 
-/* line 112, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 119, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #blog-icon {
   color: #66bb6a; }
 
-/* line 116, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 123, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #experience-icon {
   color: #ffa726; }
 
-/* line 120, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 127, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #skills-icon {
   color: #7e57c2; }
 
-/* line 124, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 131, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #projects-icon {
   color: #8d6e63; }
 
-/* line 128, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 135, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 header, footer, main, nav {
   padding-left: 300px; }
 
 @media only screen and (max-width: 992px) {
-  /* line 133, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  /* line 140, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   header, main, nav, section, footer {
     padding-left: 0; } }
-/* line 139, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 146, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .contact {
   margin-top: 150px;
   margin-left: 5px;
   width: 500px; }
-  /* line 143, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  /* line 150, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   .contact h1 {
     font-weight: 200;
     color: #5D4037; }
 
-/* line 149, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 156, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 html, body {
   height: 100%;
   color: #212121; }
