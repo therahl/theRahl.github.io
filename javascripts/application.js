@@ -16994,6 +16994,12 @@ $(function() {
 
 	$('.tabs-wrapper').pushpin();
 	$('.scrollspy').scrollSpy();
-	$('.button-collapse').sideNav({'edge': 'left'});
-  Materialize.showStaggeredList('#nav-mobile');
+	$('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 240
+      edge: 'left',
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      }
+    );
+
+    Materialize.showStaggeredList('#nav-mobile');
 });

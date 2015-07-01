@@ -15032,18 +15032,13 @@ header, footer, main, nav {
 .contact {
   margin-top: 150px;
   margin-left: 5px;
-  width: 500px;
-  opacity: .6; }
-  /* line 144, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  width: 500px; }
+  /* line 143, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   .contact h1 {
     font-weight: 200;
     color: #5D4037; }
 
 /* line 149, /home/jay/theRahl/source/stylesheets/styles.css.scss */
-.contact:hover {
-  opacity: 1; }
-
-/* line 153, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 html, body {
   height: 100%;
   color: #212121; }
