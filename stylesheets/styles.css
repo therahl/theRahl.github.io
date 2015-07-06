@@ -15017,51 +15017,50 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   display: block;
   padding-right: 10px;
   height: 230px;
-  padding-top: 50px;
-  margin-bottom: 10px; }
-  /* line 122, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  padding-top: 50px; }
+  /* line 120, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   #titleTag h4 {
     font-weight: 200; }
-  /* line 125, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  /* line 123, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   #titleTag a {
     color: #FFFFFF; }
 
-/* line 130, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 128, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #blog-icon {
   color: #66bb6a; }
 
-/* line 134, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 132, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #experience-icon {
   color: #ffa726; }
 
-/* line 138, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 136, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #skills-icon {
   color: #7e57c2; }
 
-/* line 142, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 140, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 #projects-icon {
   color: #8d6e63; }
 
-/* line 146, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 144, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 header, footer, main, nav {
   padding-left: 300px; }
 
 @media only screen and (max-width: 992px) {
-  /* line 151, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+  /* line 149, /home/jay/theRahl/source/stylesheets/styles.css.scss */
   header, main, nav, section, footer {
     padding-left: 0; } }
-/* line 158, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 156, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .contact #social {
   background-color: #FFC107;
   color: #727272;
   width: 100%;
   padding-top: 10px;
   margin: 0px; }
-/* line 165, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 163, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 .contact .card-panel {
   padding: 0px; }
 
-/* line 170, /home/jay/theRahl/source/stylesheets/styles.css.scss */
+/* line 168, /home/jay/theRahl/source/stylesheets/styles.css.scss */
 html, body {
   height: 100%;
   color: #212121; }
