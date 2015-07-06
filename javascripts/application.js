@@ -16997,9 +16997,8 @@ $(function() {
 	$('.button-collapse').sideNav({
       menuWidth: 300, // Default is 240
       edge: 'left',
-      closeOnClick: false // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       }
     );
-
     Materialize.showStaggeredList('#nav-mobile');
 });
