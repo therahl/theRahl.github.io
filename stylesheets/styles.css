@@ -6,14 +6,12 @@ html, body {
   position: relative;
   margin: 0;
 }
-
+body {
+  background-image: url('../images/concrete_seamless.png');
+}
 .container {
   align-items: center;
-  background-color: beige;
-  background-image: url('../images/green_cup.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: rgba(26, 80, 0, 0.2);
   color: black;
   display: flex;
   flex-direction: column;
