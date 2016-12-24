@@ -4,6 +4,7 @@ html, body {
   font-family: 'Play', sans-serif;
   height: 100%;
   position: relative;
+  margin: 0;
 }
 
 .container {
@@ -23,6 +24,8 @@ html, body {
 
 .content {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -34,7 +37,7 @@ html, body {
   font-size: 5.5rem;
   height: 7rem;
   justify-content: center;
-  margin-right: 2rem;
+  margin-bottom: 1rem;
   opacity: 0.1;
   padding: 1.5rem;
   text-transform: uppercase;
@@ -46,16 +49,21 @@ html, body {
   flex-direction: column;
   flex: 1;
   justify-content: center;
+  align-items: center;
 }
 
 .super-text {
-  opacity: 0.3;
+  font-weight: 600;
+  opacity: 0.15;
   text-transform: uppercase;
 }
 
 .name {
   font-size: 3.5rem;
   letter-spacing: 6px;
+  line-height: 3.5rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -75,10 +83,31 @@ html, body {
   height: 2px;
   left: 0;
   position: absolute;
-  transition: width 0.4s ease-in;
+  transition: width 0.2s ease-in-out;
   width: 0;
 }
 
 .contact > a:hover:before {
-  width: 50%;
+  width: 66.66%;
+}
+
+@media screen and (min-width: 48em) {
+  .content {
+    flex-direction: row;
+  }
+  .logo {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+  .bio {
+    align-items: flex-start;
+  }
+  .name {
+    margin: 0;
+    text-align: left;
+  }
+  .super-text {
+    font-weight: normal;
+    opacity: 0.3;
+  }
 }
